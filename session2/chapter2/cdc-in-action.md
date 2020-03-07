@@ -98,7 +98,7 @@ $ cdc ctrl --cmd=query-sub-cf --changefeed-id=136a3bee-621c-42d5-80ec-4c1aaf6ddb
 ### HTTP接口
 TiCDC 也提供 HTTP 接口帮助我们实现一些基础的查询和运维功能。
 
-运行如下命令可以查询 TiCDC 服务状态查询：
+运行如下命令可以查询 TiCDC 服务状态：
 ```
 $ curl http://10.2.1.20:8300/status
 {
