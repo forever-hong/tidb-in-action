@@ -131,4 +131,5 @@ $ curl -X POST -d "admin-job=X&cf-id=136a3bee-621c-42d5-80ec-4c1aaf6ddb53" http:
 - admin-job=2，表示恢复任务，同步任务从 CheckpointTs 继续同步
 - admin-job=3，表示删除任务，请求后结束所有同步 processor，并清理 changefeed 同步配置。同步状态保留，只提供查询，没有其他实际功能
 - cf-id=xxx，为需要操作的同步任务 ID。 
+
 上述命令也是需要向当前的 Owner 节点发出请求，对非 Owner 节点该请求会报错。
