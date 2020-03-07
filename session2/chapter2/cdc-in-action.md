@@ -1,6 +1,6 @@
 本节将介绍如何使用 TiCDC 在两个 TiDB 集群之间实现数据同步。
 
-![architecture.png](/res/session2/chapter2/cdc-in-action/1.png)
+<img src="https://github.com/forever-hong/tidb-in-action/blob/master/res/session2/chapter2/cdc-in-action/1.png" width="500" />
 
 
 部署结构如上图所示。这里我们假定：
